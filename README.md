@@ -6,7 +6,7 @@ This script installs all the dependancies needed in a default Kali 2021.1 system
 
 # Usage
 
-1. Review install-pyrit-kali-rolling-2021-1.sh to ensure that it's not doing anything you don't want it to.
+1. Review `install-pyrit-kali-rolling-2021-1.sh` to ensure that it's not doing anything you don't want it to.
 2. Run the folllowing command on Kali:
 
 ```
