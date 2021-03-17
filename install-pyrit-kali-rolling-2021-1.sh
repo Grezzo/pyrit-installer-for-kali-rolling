@@ -1,11 +1,13 @@
 #!/bin/bash
 
 # Install dependencies
+sudo bash -c "echo deb http://ftp.debian.org/debian/ stretch main contrib non-free >> /etc/apt/sources.list"
 sudo apt-get update
 sudo apt-get install -y \
 	python-dev \
 	libssl-dev \
-	libpcap-dev
+	libpcap-dev \
+	python-scapy
 
 # Clone Repo
 git clone https://github.com/JPaulMora/Pyrit.git --depth=1
